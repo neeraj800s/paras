@@ -3,8 +3,8 @@ const jwt = require('jsonwebtoken');
 const login = async (req, res) => {
     const { email, password } = req.body;
 
-    const adminEmail = "parassingh123@gmail.com";
-    const adminPassword = "paras@123";
+    const adminEmail = "parasmedicalstore86@gmail.com";
+    const adminPassword = "parasmedicalstore@86";
 
     if (email === adminEmail && password === adminPassword) {
         const token = jwt.sign(
